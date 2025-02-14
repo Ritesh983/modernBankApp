@@ -1,14 +1,14 @@
 {
   "homepage": "https://Ritesh983.github.io/modernBankApp",
-  "name": "bankmodernapp",
+  "name": "modernBankApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+ "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist" ,
     "lint": "eslint .",
     "preview": "vite preview"
   },
